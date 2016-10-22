@@ -1,0 +1,83 @@
+/********** Large devices only *********/
+@media (min-width: 992px) {
+  .box, .box2 {
+    width: 33.33%;
+  }
+
+
+}
+
+/********** Medium devices only *********/
+@media (min-width: 769px) and (max-width: 991px) {
+  .box {
+    width: 50%;
+  }
+  .box2 {
+    width: 100%
+  }
+}
+
+/********** small devices only *********/
+@media (max-width: 768px) {
+  .box, .box2 {
+    width: 100%;
+  }
+
+  
+}
+
+
+/**/
+
+h1 {
+
+  margin-bottom: 15px;
+  margin: 25px;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  display: inline-block;
+}
+.content {
+  padding: 0 15px;
+  
+}
+.box, .box2 {
+  position: relative;
+  float: left;
+   
+}
+
+.box-container{
+  display: inline-block;
+  background-color: gray;
+  min-height: 100px;
+  border: 1px solid black;
+  margin: 15px;
+  
+}
+
+.title{
+  border: 1px solid black;
+  float: right;
+  position: relative;
+  text-align: center;
+  width: 120px;
+  font-weight: bold;
+  font-family: Tahoma,Helvetica, sans-serif;
+
+}
+
+.pink {
+  background-color: #D59898;
+}
+.red {
+  background-color: #C14543;
+  color: white;
+}
+.yellow {
+  background-color: #E5D198;
+}
+
